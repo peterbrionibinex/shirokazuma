@@ -149,9 +149,19 @@ require get_template_directory() . '/inc/template-tags.php';
 require get_template_directory() . '/inc/template-functions.php';
 
 /**
+ * NavWalker additions.
+ */
+require get_template_directory() . '/inc/bs4navwalker.php';
+
+/**
  * Customizer additions.
  */
 require get_template_directory() . '/inc/customizer.php';
+
+/**
+ * Widget additions.
+ */
+require get_template_directory() . '/inc/widgets.php';
 
 /**
  * Load Jetpack compatibility file.
